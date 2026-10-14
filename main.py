@@ -55,3 +55,15 @@ elif newUser == "осмотреть":
     print("Ты осматриваешься.")
 else:
     print("Я не понял.")
+
+#Задание 9
+
+text = "Hello World from Python"
+
+words = text.split()
+
+reversed_words = words[::-1]
+
+result = " ".join(reversed_words)
+
+print(result)
